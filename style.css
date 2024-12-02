@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 100vw;
+  background-color: #dedbd2;
+  color: #333;
+}
+main {
+  margin: 5%;
+}
+
+/* Navbar */
+header {
+  background-color: #474444;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links .brand {
+  margin-right: auto;
+}
+
+.nav-links a {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #0056b3;
+}
+
+/* Heading Styles */
+h1 {
+  font-family: Helvetica Neue, sans-serif;
+  color: rgb(64, 57, 57);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(128, 140, 169);
+}
+
+/* Paragraph Styles */
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  color: rgb(51, 53, 52);
+  margin-bottom: 15px;
+  line-height: 1.4em;
+}
+
+/* Role Styling */
+.role {
+  color: #7b7b7b;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Social Media Links */
+.socials a {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.socials a:hover {
+  color: #007bff;
+}
+
+/* Team Section */
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.team-member {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Overzicht Episodes */
+.episodes {
+  max-width: 800px;
+  margin: 0;
+  padding: 0%;
+}
+
+.episode {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.episode img {
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.date {
+  font-size: 0.8em;
+  color: #999;
+}
+
+button {
+  align-self: flex-start;
+  background-color: #474444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Image Styling in Main Section */
+main img {
+  border: 4px dotted rgb(255, 255, 255);
+}
+
+/* Image Styling in Footer Section */
+footer img {
+  border: 4px dotted rgb(182, 190, 208);
+  padding: 1em 5em;
+}
+
+/* Test Class Example */
+.podcasttest {
+  color: rgb(182, 190, 208);
+}
